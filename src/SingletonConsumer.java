@@ -18,10 +18,10 @@ class Singleton{
     }
 
     public static Singleton getInstance(String value){
-        if (Singleton.instance != null) {
-            return instance;
+        if (Singleton.instance == null) {
+            instance = new Singleton(value);
         }
-        return instance = new Singleton(value);
+        return instance;
     }
 }
 
