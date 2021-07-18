@@ -24,4 +24,12 @@ public class Gpu {
     public void setSeries(String series) {
         this.series = series;
     }
+
+    @Override
+    public String toString() {
+        return "Gpu{" +
+                "series='" + series + '\'' +
+                ", capacity=" + capacity +
+                '}';
+    }
 }

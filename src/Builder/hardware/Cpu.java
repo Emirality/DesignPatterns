@@ -33,4 +33,12 @@ public class Cpu {
         this.streams = streams;
     }
 
+    @Override
+    public String toString() {
+        return "Cpu{" +
+                "frequency=" + frequency +
+                ", cores=" + cores +
+                ", streams=" + streams +
+                '}';
+    }
 }

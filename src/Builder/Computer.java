@@ -42,4 +42,14 @@ public class Computer {
     public void setSsd(Ssd ssd) {
         this.ssd = ssd;
     }
+
+    @Override
+    public String toString() {
+        return "Computer{" +
+                "cpu=" + cpu +
+                ", gpu=" + gpu +
+                ", motherboard=" + motherboard +
+                ", ssd=" + ssd +
+                '}';
+    }
 }

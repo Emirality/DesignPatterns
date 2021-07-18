@@ -24,4 +24,12 @@ public class Ssd {
     public void setName(String name) {
         this.name = name;
     }
+
+    @Override
+    public String toString() {
+        return "Ssd{" +
+                "name='" + name + '\'' +
+                ", capacity=" + capacity +
+                '}';
+    }
 }
