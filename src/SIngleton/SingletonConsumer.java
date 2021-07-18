@@ -1,3 +1,5 @@
+package SIngleton;
+
 public class SingletonConsumer {
     public static void main(String[] args) {
 
